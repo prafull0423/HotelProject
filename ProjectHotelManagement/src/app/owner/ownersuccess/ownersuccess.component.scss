@@ -1,0 +1,39 @@
+body {
+  background-image: url("~src/assets/img/hotelTable.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn1 {
+  margin: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: lavenderblush;
+}
+
+th {
+  border-bottom: 2px solid black !important
+}
+
+.btnBack {
+  text-align: center;
+}
+
+.btnBack:hover {
+
+  width: 100%;
+  background-color: peachpuff;
+  height: 34px;
+}

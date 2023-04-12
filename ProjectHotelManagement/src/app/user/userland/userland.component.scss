@@ -1,0 +1,34 @@
+.main1 {
+    background-image: url("~src/assets/img/users.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn1 {
+    margin: 10px;
+}
+
+.main {
+    width: 520px;
+    border: 1px solid #cb3709;
+    background-color: rosybrown;
+    margin: auto;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.input {
+    width: 450px;
+}
+
+.btn {
+    background-color: #f20e31;
+    color: white
+}
+
+.btn:hover {
+    opacity: 0.4;
+}

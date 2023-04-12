@@ -1,0 +1,40 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th {
+  border-bottom: 2px solid black !important
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+
+  text-align: left;
+  padding: 8px;
+  background-color: lightgreen;
+}
+
+.form-control {
+  max-width: 704px;
+  padding: 9px;
+  margin: auto;
+}
+
+.searchBar {
+  padding-bottom: 30px;
+}
+
+.btnBack {
+  text-align: center;
+}
+
+.btnBack:hover {
+
+  width: 100%;
+  background-color: rgb(116, 242, 116);
+  height: 34px;
+}

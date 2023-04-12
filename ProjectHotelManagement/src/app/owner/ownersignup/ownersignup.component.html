@@ -1,0 +1,56 @@
+<button mat-button color="warn" class="btn1" routerLink="/owner/ownerland">Back</button>
+<div class="main">
+  <h2 style="text-align: center;"><i>Sign up to create an account</i></h2>
+  <form [formGroup]="signUpForm"><!-- (ngSubmit)="signUpData()" -->
+    <mat-form-field class="input">
+      <mat-label>Enter Name</mat-label>
+      <input matInput appNameValidation placeholder="Enter your name" formControlName="userName">
+      <mat-error>Enter your name</mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field class="input">
+      <mat-label>Enter Email</mat-label>
+      <input matInput placeholder="pat@example.com" formControlName="userEmail">
+      <mat-error>Enter your email</mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field class="input">
+      <mat-label>Enter Mobile</mat-label>
+      <input matInput appMobValidation placeholder="Enter your mobile number" formControlName="userMob"
+        pattern="[7-9]{1}[0-9]{9}">
+      <mat-error>enter your 10 digit mobile number</mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field class="input">
+      <mat-label>Enter Password </mat-label>
+      <input matInput type="password" placeholder="Enter password" formControlName="userpass"
+        pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&]).{8,}$">
+      <mat-error>use 8 or more characters with a mix of letter,no & symbols </mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field class="input">
+      <mat-label>Confirm Password </mat-label>
+      <input type="password" matInput placeholder="Confirm password" formControlName="userConfirmpass">
+      <mat-error
+        *ngIf="signUpForm.get('userConfirmpass')?.errors?.['notEquivalent']&& signUpForm.get('userConfirmpass')?.touched">Password
+        not matched </mat-error>
+    </mat-form-field><br>
+
+
+    <mat-radio-group formControlName="gender">
+      <mat-label> <i>Select Gender</i> </mat-label>
+      <mat-radio-button value="Male"><i>Male</i> </mat-radio-button>
+      <mat-radio-button value="Female"><i>Female</i></mat-radio-button>
+    </mat-radio-group><br>
+
+    <mat-checkbox formControlName="userCheck"> <i>Accept Terms & Conditions</i></mat-checkbox>
+
+    <div style="text-align: center;">
+      <button [disabled]="!signUpForm" mat-raised-button color="accent" (click)="signUpData()">Sign up</button><br><br>
+    </div>
+
+
+    <div style="text-align: center;"><i>Already have member?</i><a routerLink="/owner/ownersignin"><i>Sign in
+          here</i></a></div>
+  </form>
+</div>

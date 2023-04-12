@@ -1,0 +1,753 @@
+{
+  "admin": [
+    {
+      "userName": "Akshaja",
+      "userEmail": "ashjkak@123gma",
+      "userMob": "8695745689",
+      "gender": "male",
+      "userpass": "Asfh@123",
+      "userCheck": true,
+      "id": 1
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aksk1232@gmail.com",
+      "userMob": "8794569857",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 2
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aksk1232@gmail.com",
+      "userMob": "8794569857",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 3
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshy223@gmil.com",
+      "userMob": "8794569574",
+      "gender": "male",
+      "userpass": "Ajska@123",
+      "userCheck": true,
+      "id": 4
+    },
+    {
+      "userName": "ahjgff",
+      "userEmail": "ffff@g",
+      "userMob": "7894569856",
+      "gender": "male",
+      "userpass": "Asdfgf@123",
+      "userCheck": true,
+      "id": 5
+    },
+    {
+      "userName": "hhh",
+      "userEmail": "ggg@g",
+      "userMob": "7894569856",
+      "gender": "male",
+      "userpass": "Asd@123sss",
+      "userCheck": true,
+      "id": 6
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay@123",
+      "userMob": "8745698696",
+      "gender": "male",
+      "userpass": "Akshsy@123",
+      "userCheck": true,
+      "id": 7
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "ahak123@gmail.com",
+      "userMob": "8956745697",
+      "gender": "male",
+      "userpass": "Akshsy@123",
+      "userCheck": true,
+      "id": 8
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay12@gmail.com",
+      "userMob": "8745698569",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 9
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay12@gmail.com",
+      "userMob": "8745698569",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 10
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay12@gmail.com",
+      "userMob": "8745698569",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 11
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay123@gmail.com",
+      "userMob": "7894569856",
+      "gender": "Male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "userConfirmpass": "Akshay@123",
+      "id": 12
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 13
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 14
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 15
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 16
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 17
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 18
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 19
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 20
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 21
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 22
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 23
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 24
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 25
+    },
+    {
+      "userName": "rrr",
+      "userEmail": "ww33@g",
+      "userMob": "7777777777",
+      "gender": "Male",
+      "userpass": "Asas@123",
+      "userCheck": true,
+      "userConfirmpass": "Asds@123",
+      "id": 26
+    },
+    {
+      "userName": "namdev",
+      "userEmail": "raut@gmail.com",
+      "userMob": "9099809899",
+      "gender": "Male",
+      "userpass": "Name@123",
+      "userCheck": true,
+      "userConfirmpass": "Name@123",
+      "id": 27
+    }
+  ],
+  "owner": [
+    {
+      "userName": "Aksldk",
+      "userEmail": "Asksk@gma",
+      "userMob": "8695748569",
+      "gender": "male",
+      "userpass": "Ajdks21232@",
+      "userCheck": true,
+      "id": 1
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aska123@gmail.com",
+      "userMob": "8945974684",
+      "gender": "male",
+      "userpass": "Aksh@1234",
+      "userCheck": true,
+      "id": 2
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aska123@gmail.com",
+      "userMob": "8945974684",
+      "gender": "male",
+      "userpass": "Aksh@1234",
+      "userCheck": true,
+      "id": 3
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "sjdj@g",
+      "userMob": "8965478564",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 4
+    },
+    {
+      "userName": "ggg",
+      "userEmail": "ggg@gmai",
+      "userMob": "7894569856",
+      "gender": "male",
+      "userpass": "Asd@11223",
+      "userCheck": true,
+      "id": 5
+    },
+    {
+      "userName": "ddddd",
+      "userEmail": "dd12@gam",
+      "userMob": "8784569874",
+      "gender": "male",
+      "userpass": "Agff@123",
+      "userCheck": true,
+      "id": 6
+    },
+    {
+      "userName": "ram",
+      "userEmail": "aaa22@g",
+      "userMob": "9999899999",
+      "gender": "Male",
+      "userpass": "Ram@1234",
+      "userCheck": true,
+      "userConfirmpass": "Ram@1234",
+      "id": 7
+    },
+    {
+      "userName": "ram",
+      "userEmail": "rann22@g",
+      "userMob": "8888888889",
+      "gender": "Male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "userConfirmpass": "Akshay@123",
+      "id": 8
+    },
+    {
+      "userName": "ganesh",
+      "userEmail": "ss22@g",
+      "userMob": "",
+      "gender": "",
+      "userpass": "Akshay@123",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 9
+    },
+    {
+      "userName": "ddd",
+      "userEmail": "ddd22@g",
+      "userMob": "7777666666",
+      "gender": "Male",
+      "userpass": "",
+      "userCheck": true,
+      "userConfirmpass": "Asds@123",
+      "id": 10
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "userMob": "",
+      "gender": "",
+      "userpass": "",
+      "userCheck": "",
+      "userConfirmpass": "",
+      "id": 11
+    },
+    {
+      "userName": "raju",
+      "userEmail": "raju@gmail.com",
+      "userMob": "9090443322",
+      "gender": "Male",
+      "userpass": "Raju@123",
+      "userCheck": true,
+      "userConfirmpass": "Raju@123",
+      "id": 12
+    }
+  ],
+  "user": [
+    {
+      "userName": "Akshay",
+      "userEmail": "askja@123hgamil.com",
+      "userMob": "8794569581",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 1
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aksja212@gamil.com",
+      "userMob": "8945689569",
+      "gender": "male",
+      "userpass": "Akshay@1234",
+      "userCheck": true,
+      "id": 2
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aksja212@gamil.com",
+      "userMob": "8945689569",
+      "gender": "male",
+      "userpass": "Akshay@1234",
+      "userCheck": true,
+      "id": 3
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "aksj@123gmail.com",
+      "userMob": "8745696857",
+      "gender": "male",
+      "userpass": "Akslak@123",
+      "userCheck": true,
+      "id": 4
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "asjak@123gmail.com",
+      "userMob": "8745956977",
+      "gender": "male",
+      "userpass": "Akshaj@123",
+      "userCheck": true,
+      "id": 5
+    },
+    {
+      "userName": "Akshay",
+      "userEmail": "akshay123@gami.com",
+      "userMob": "8569745697",
+      "gender": "male",
+      "userpass": "Akshay@123",
+      "userCheck": true,
+      "id": 6
+    },
+    {
+      "userName": "prafull",
+      "userEmail": "patole@gmail.com",
+      "userMob": "9999999999",
+      "gender": "Male",
+      "userpass": "Pass@123",
+      "userCheck": true,
+      "userConfirmpass": "Pass@123",
+      "id": 7
+    },
+    {
+      "userName": "ramanand",
+      "userMob": "8080909897",
+      "userEmail": "rama@gmail.com",
+      "userPass": "Rama@123",
+      "gender": "male",
+      "userCheck": true,
+      "id": 8
+    },
+    {
+      "userName": "rahul",
+      "userMob": "8776678989",
+      "userEmail": "rahul@gmail.com",
+      "userPass": "Rahul@00",
+      "gender": "male",
+      "userCheck": true,
+      "id": 9
+    }
+  ],
+  "hotelDetails": [
+    {
+      "ownerName": "Akshay",
+      "hotelName": "tajHotel",
+      "hotelAddress": "mumbai",
+      "hotelMobile": "8745698745",
+      "hotelMenu": "paneer",
+      "roomAvailable": "40",
+      "userPass": "Aksjau@123",
+      "owenrCheck": true,
+      "id": 15
+    },
+    {
+      "ownerName": "Akshay",
+      "hotelName": "5 star",
+      "hotelAddress": "nagpur",
+      "hotelMobile": "7894569857",
+      "hotelMenu": "paneer",
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 16
+    },
+    {
+      "ownerName": "ram",
+      "hotelName": "5 star",
+      "hotelAddress": "wardha",
+      "hotelMobile": "8794569856",
+      "hotelMenu": [
+        "Paneer Tikka Masala",
+        "Paneer Butter Masala",
+        "Dosa",
+        "Mini Thali",
+        "Special Thali "
+      ],
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 17
+    },
+    {
+      "ownerName": "ram",
+      "hotelName": "5 star",
+      "hotelAddress": "nagpur",
+      "hotelMobile": "8794569887",
+      "hotelMenu": [
+        "Paneer Butter Masala",
+        "Dosa",
+        "Mini Thali",
+        "Special Thali "
+      ],
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 18
+    },
+    {
+      "ownerName": "ram",
+      "hotelName": "eeee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "7894569867",
+      "hotelMenu": [
+        "Paneer Tikka Masala",
+        "Paneer Butter Masala"
+      ],
+      "roomAvailable": "11",
+      "userPass": "Asa@12333",
+      "owenrCheck": true,
+      "id": 19
+    },
+    {
+      "ownerName": "Akshay",
+      "hotelName": "5 star",
+      "hotelAddress": "nagpur",
+      "hotelMobile": "7894569857",
+      "hotelMenu": [
+        "Paneer Tikka Masala",
+        "Paneer Butter Masala",
+        "Dosa"
+      ],
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 20
+    },
+    {
+      "ownerName": "ram",
+      "hotelName": "eew",
+      "hotelAddress": "sss",
+      "hotelMobile": "7789895687",
+      "hotelMenu": [
+        "Mini Thali",
+        "Special Thali "
+      ],
+      "roomAvailable": "2",
+      "userPass": "Ram@1234",
+      "owenrCheck": true,
+      "id": 26
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 28
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Paneer Butter Masala"
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 29
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 31
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Paneer Tikka Masala"
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 32
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Dosa"
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 33
+    },
+    {
+      "ownerName": "ganesh",
+      "hotelName": "eee",
+      "hotelAddress": "eeee",
+      "hotelMobile": "8888888885",
+      "hotelMenu": [
+        "Egg Varieties"
+      ],
+      "roomAvailable": "4",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 34
+    },
+    {
+      "ownerName": "Akshay",
+      "hotelName": "5 star",
+      "hotelAddress": "nagpur",
+      "hotelMobile": "7894569857",
+      "hotelMenu": [
+        "Gulab Jamun"
+      ],
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 39
+    },
+    {
+      "ownerName": "Akshay",
+      "hotelName": "5 star",
+      "hotelAddress": "nagpur",
+      "hotelMobile": "7894569857",
+      "hotelMenu": [
+        "Non-Veg Varieties"
+      ],
+      "roomAvailable": "10",
+      "userPass": "Akshay@123",
+      "owenrCheck": true,
+      "id": 40
+    }
+  ],
+  "hotelBooking": [
+    {
+      "userName": "Akshay",
+      "userAddress": "wardha",
+      "userMobile": "895698546",
+      "userBookAm": "1000",
+      "id": 1
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "wardha",
+      "userMobile": "8956985461",
+      "userBookAm": "1000",
+      "id": 2
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "wardha",
+      "userMobile": "8956985461",
+      "userBookAm": "1000",
+      "id": 3
+    },
+    {
+      "userName": "",
+      "userAddress": "",
+      "userMobile": "",
+      "userBookAm": "1000",
+      "id": 4
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "war",
+      "userMobile": "7845698889",
+      "userBookAm": "1000",
+      "id": 5
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "ssss",
+      "userMobile": "7889445698",
+      "userBookAm": "1000",
+      "id": 6
+    },
+    {
+      "userName": "aksgay",
+      "userAddress": "dddd",
+      "userMobile": "8745698826",
+      "userBookAm": "1000",
+      "id": 7
+    },
+    {
+      "userName": "",
+      "userAddress": "",
+      "userMobile": "",
+      "userBookAm": "1000",
+      "id": 8
+    },
+    {
+      "userName": "Asssss",
+      "userAddress": "aaaa",
+      "userMobile": "7894569877",
+      "userBookAm": "1000",
+      "id": 9
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "wardha",
+      "userMobile": "8956978456",
+      "userBookAm": "1000",
+      "id": 10
+    },
+    {
+      "userName": "ddd",
+      "userAddress": "ddd",
+      "userMobile": "7654323454",
+      "userBookAm": "1000",
+      "id": 11
+    },
+    {
+      "userName": "Akshay",
+      "userAddress": "War",
+      "userMobile": "7845698889",
+      "userBookAm": "1000",
+      "id": 12
+    }
+  ]
+}

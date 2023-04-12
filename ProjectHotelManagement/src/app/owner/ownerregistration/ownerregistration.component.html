@@ -1,0 +1,65 @@
+<button mat-button color="warn" routerLink="/owner/ownerland">Back</button>
+<div class="main">
+    <h1 style="text-align:center ;"><b>Register Here</b></h1>
+    <form [formGroup]="regitrationForm" autocomplete="off">
+
+        <mat-form-field class="input">
+            <mat-label>Owner Name </mat-label>
+            <input matInput type="text" formControlName="ownerName" placeholder="Enter owner name" required>
+            <mat-error>Enter owner name</mat-error>
+        </mat-form-field><br>
+
+        <mat-form-field class="input">
+            <mat-label>Hotel Name</mat-label>
+            <input matInput type="text" formControlName="hotelName" placeholder="Enter hotel name">
+            <mat-error>Enter hotel name</mat-error>
+        </mat-form-field><br>
+
+        <mat-form-field class="input">
+            <mat-label>Hotel Address</mat-label>
+            <input matInput type="text" formControlName="hotelAddress" placeholder="Enter hotel address">
+            <mat-error>Enter hotel address</mat-error>
+        </mat-form-field><br>
+
+        <mat-form-field class="input">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput type="text" formControlName="hotelMobile" placeholder="Enter hotel mobile number">
+            <mat-error>Enter 10 degit number</mat-error>
+        </mat-form-field><br>
+
+        <!-- <mat-form-field class="input">
+            <mat-label>Menu List</mat-label>
+            <input matInput type="text" formControlName="hotelMenu" placeholder="Special Menu">
+            <mat-error>Enter Menu</mat-error>
+        </mat-form-field><br> -->
+
+        <mat-form-field class="input">
+            <mat-label>Menu List</mat-label>
+            <mat-select formControlName="hotelMenu" placeholder="Choose menu" multiple>
+                <mat-option *ngFor="let option of options" [value]="option ">{{option}}</mat-option>
+            </mat-select>
+            <mat-error>Enter Menu</mat-error>
+        </mat-form-field><br>
+
+
+        <mat-form-field class="input">
+            <mat-label>Room Available</mat-label>
+            <input matInput type="text" formControlName="roomAvailable" placeholder="Enter room available">
+            <mat-error>Room Detail</mat-error>
+        </mat-form-field><br>
+
+        <mat-form-field class="input">
+            <mat-label>Enter Password</mat-label>
+            <input matInput type="password" formControlName="userPass" placeholder="Enter password"
+                pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&]).{8,}$">
+            <mat-error>use 8 or more characters with a mix of letter,numbers & symbols</mat-error>
+        </mat-form-field><br>
+
+        <mat-checkbox formControlName="owenrCheck"> Accept Terms & Conditions</mat-checkbox>
+        <div style="text-align: center;">
+            <button mat-raised-button color="accent" [disabled]="regitrationForm.invalid"
+                (click)="postHoteldata()">Register</button>
+
+        </div><br>
+    </form>
+</div>

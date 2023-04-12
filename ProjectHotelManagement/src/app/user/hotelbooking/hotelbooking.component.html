@@ -1,0 +1,36 @@
+  <button mat-button color="warn" routerLink="/user/userland">Back</button>
+  <div class="main">
+    <h2 style="text-align: center;">Login here </h2>
+    <form [formGroup]="loginForm">
+      <mat-form-field class="input">
+        <mat-label>Enter name</mat-label>
+        <input matInput placeholder="Enter your name" formControlName="userName">
+        <mat-error>Enter your name</mat-error>
+      </mat-form-field><br>
+
+      <mat-form-field class="input">
+        <mat-label>Enter Address</mat-label>
+        <input matInput placeholder="Enter your address" formControlName="userAddress">
+        <mat-error>Enter your address</mat-error>
+      </mat-form-field><br>
+
+      <mat-form-field class="input">
+        <mat-label>Mobile</mat-label>
+        <input matInput placeholder="Enter mobile number" formControlName="userMobile">
+        <mat-error>Enter mobile number</mat-error>
+      </mat-form-field><br>
+
+      <mat-form-field class="input">
+        <mat-label>Booking Amount</mat-label>
+        <input matInput formControlName="userBookAm">
+
+      </mat-form-field>
+
+
+      <div style="text-align: center;">
+        <button mat-raised-button [disabled]="loginForm.invalid" color="accent"
+          (click)="loginData()">Login</button><br><br>
+      </div>
+
+    </form>
+  </div>

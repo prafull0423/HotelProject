@@ -1,0 +1,46 @@
+<body>
+    <button class="btn" mat-button color="warn" routerLink="/owner/ownerland"> <b> Back</b></button>
+
+    <button mat-raised-button class="btn" class="btn1" color="primary" (click)="newRegistration()">Registration</button>
+
+    <button mat-raised-button class="btn" class="btn1" color="accent" (click)="hotelDetails()">Hotel List</button>
+
+    <div *ngIf="hideTable">
+
+        <h2 style="text-align: center; color: white;"><b>View Hotel List</b></h2>
+        <table border="2px black">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Owner Name</th>
+                    <th>Hotel Name</th>
+                    <th>Menu</th>
+                    <th>Room Available</th>
+                    <th>Hotel Address</th>
+                    <th>Hotel Mobile</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of hotelListByName">
+                    <td>{{data.id}}</td>
+                    <td>{{data.ownerName}}</td>
+                    <td>{{data.hotelName}}</td>
+                    <td>{{data.hotelMenu}}</td>
+                    <td>{{data.roomAvailable}}</td>
+                    <td>{{data.hotelAddress}}</td>
+                    <td>{{data.hotelMobile}}</td>
+                    <td><mat-icon (click)="deleteData(data.id)">delete</mat-icon></td>
+                    <td><mat-icon (click)="editData(data.id)">create</mat-icon></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div class="btnBack" routerLink="/owner/ownerland">
+            <button class="btn" mat-button color="warn" routerLink="/owner/ownerland"> <b> Back</b></button>
+        </div>
+
+    </div>
+
+</body>

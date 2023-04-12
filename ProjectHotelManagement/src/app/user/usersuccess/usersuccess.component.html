@@ -1,0 +1,38 @@
+<h2 style="margin-left: 20px;"><b>View Hotel List</b></h2>
+<div class="searchBar">
+    <input type="text" class="form-control" [(ngModel)]="searchText"
+        placeholder="&#61442;  Start searching from id or hotelHome or hotelAddress">
+</div>
+<div>
+    <table border="2px black">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Owner Name</th>
+                <th>Hotel Name</th>
+                <th>Menu</th>
+                <th>Room Available</th>
+                <th>Hotel Address</th>
+                <th>Hotel Mobile</th>
+                <th>Book</th>
+            </tr>
+        <tbody>
+            <tr *ngFor="let data of apidata | search:searchText">
+                <td>{{data.id}}</td>
+                <td>{{data.ownerName}}</td>
+                <td>{{data.hotelName}}</td>
+                <td>{{data.hotelMenu}}</td>
+                <td>{{data.roomAvailable}}</td>
+                <td>{{data.hotelAddress}}</td>
+                <td>{{data.hotelMobile}}</td>
+                <td><button type="button" class="btn btn-outline-primary" routerLink="/user/hotelbooking">Book
+                        Now</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+</div>
+<div class="btnBack" routerLink="/user/userland">
+    <button color="warn" routerLink="/user/userland">Back</button>
+
+</div>
